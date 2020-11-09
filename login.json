@@ -1,63 +1,68 @@
 {
-  "id": 7,
-  "usuario": "1234225678",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGFpbXNfZXhwIjoxNjA0Nzg4NDU1LCJjbGFpbXNfaWQiOjcsImNsYWltc191c3VhcmlvIjoiMTIzNDIyNTY3OCJ9.dyfb9KTvZKNkYZErkMZwg1-c5bkvcEfGY7llezXxzG0",
-  "nombres": "BotNombre2",
-  "apellidos": "BotApellido2",
-  "id_sistema": 2,
-  "nombre_sistema": "Data Collector-TLRR",
-  "siglas_sistema": "DCollector-TLRR",
-  "menu_arbol": [
-    {
-      "id": 1,
-      "nombre": "Toma de Lecturas",
-      "id_padre": 0
-    },
-    {
-      "id": 2,
-      "nombre": "Reparto de Recibos",
-      "id_padre": 0
-    }
-  ],
-  "empresas_permitidas": [
-    {
-      "id": 1,
-      "nombre": "Servicios Santa Gabriela S.A.C.",
-      "uunn_permitidas": [
-        {
-          "id": 1,
-          "id_aux_1": 3,
-          "nombre": "La Libertad",
-          "sedes_permitidas": [
-            {
-              "id": 1,
-              "nombre": "Trujillo"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "nombre": "La Libertad Sierra",
-          "id_aux_1": 5,
-          "sedes_permitidas": [
-            {
-              "id": 5,
-              "nombre": "Tayabamba"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "id_aux_1": 7,
-          "nombre": "La Libertad Norte",
-          "sedes_permitidas": [
-            {
-              "id": 10,
-              "nombre": "Chepén"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"status":1,
+	"mensaje":"",
+	data:
+	{
+	  "id": 7,
+	  "usuario": "1234225678",
+	  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGFpbXNfZXhwIjoxNjA0Nzg4NDU1LCJjbGFpbXNfaWQiOjcsImNsYWltc191c3VhcmlvIjoiMTIzNDIyNTY3OCJ9.dyfb9KTvZKNkYZErkMZwg1-c5bkvcEfGY7llezXxzG0",
+	  "nombres": "BotNombre2",
+	  "apellidos": "BotApellido2",
+	  "id_sistema": 2,
+	  "nombre_sistema": "Data Collector-TLRR",
+	  "siglas_sistema": "DCollector-TLRR",
+	  "menu_arbol": [
+		{
+		  "id": 1,
+		  "nombre": "Toma de Lecturas",
+		  "id_padre": 0
+		},
+		{
+		  "id": 2,
+		  "nombre": "Reparto de Recibos",
+		  "id_padre": 0
+		}
+	  ],
+	  "empresas_permitidas": [
+		{
+		  "id": 1,
+		  "nombre": "Servicios Santa Gabriela S.A.C.",
+		  "uunn_permitidas": [
+			{
+			  "id": 1,
+			  "id_aux_1": 3,
+			  "nombre": "La Libertad",
+			  "sedes_permitidas": [
+				{
+				  "id": 1,
+				  "nombre": "Trujillo"
+				}
+			  ]
+			},
+			{
+			  "id": 2,
+			  "nombre": "La Libertad Sierra",
+			  "id_aux_1": 5,
+			  "sedes_permitidas": [
+				{
+				  "id": 5,
+				  "nombre": "Tayabamba"
+				}
+			  ]
+			},
+			{
+			  "id": 4,
+			  "id_aux_1": 7,
+			  "nombre": "La Libertad Norte",
+			  "sedes_permitidas": [
+				{
+				  "id": 10,
+				  "nombre": "Chepén"
+				}
+			  ]
+			}
+		  ]
+		}
+	  ]
+	}
 }
