@@ -1,0 +1,17 @@
+{
+    "data": {
+        "id": 4,
+        "nombre": "toma de lecturas y reparto de recibos",
+        "siglas": "tlrr",
+        "clientes": [
+            {
+                "id": 1,
+                "nombre": "hidrandina",
+                "siglas": "hdna",
+                "ruc": "12345678910"
+            }
+        ]
+    },
+    "message": "Clientes obtenidos con éxito.",
+    "status": 1
+}

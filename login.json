@@ -1,13 +1,22 @@
 {
 	"status":1,
-	"mensaje":"",
+	"message": "Bienvenido BotNombre3, BotApellido3",
 	"data":
 	{
-	  "id": 7,
-	  "usuario": "1234225678",
-	  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGFpbXNfZXhwIjoxNjA0Nzg4NDU1LCJjbGFpbXNfaWQiOjcsImNsYWltc191c3VhcmlvIjoiMTIzNDIyNTY3OCJ9.dyfb9KTvZKNkYZErkMZwg1-c5bkvcEfGY7llezXxzG0",
-	  "nombres": "BotNombre2",
-	  "apellidos": "BotApellido2",
+	  "id": 8,
+	  "usuario": "45626184",
+	  "dni_persona": "45626184",
+	  "id_cliente": "1",
+	  "nombre_cliente": "hidrandina",
+	  "id_actividad_operativa": 4,
+	  "nombre_actividad_operativa": "toma de lecturas y reparto de recibos",
+	  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGFpbXNfZXhwIjoxNjA2MTA1NzE0LCJjbGFpbXNfaWQiOjgsImNsYWltc191c3VhcmlvIjoiNDU2MjYxODQifQ.YpxNrSZ-va6KTbe-JyNwJXuYH55fkMGqWGosopuPypI",
+	  "imei": "338867895077755",
+	  "sim_serie": "2222211111111122222",
+	  "latitud": "-8.1117766",
+      "longitud": "-79.030883",
+	  "nombres": "BotNombre3",
+	  "apellidos": "BotApellido3",
 	  "id_sistema": 2,
 	  "nombre_sistema": "Data Collector-TLRR",
 	  "siglas_sistema": "DCollector-TLRR",
@@ -24,45 +33,20 @@
 		}
 	  ],
 	  "empresas_permitidas": [
-		{
-		  "id": 1,
-		  "nombre": "Servicios Santa Gabriela S.A.C.",
-		  "uunn_permitidas": [
-			{
-			  "id": 1,
-			  "id_aux_1": 3,
-			  "nombre": "La Libertad",
-			  "sedes_permitidas": [
-				{
-				  "id": 1,
-				  "nombre": "Trujillo"
-				}
-			  ]
-			},
-			{
-			  "id": 2,
-			  "nombre": "La Libertad Sierra",
-			  "id_aux_1": 5,
-			  "sedes_permitidas": [
-				{
-				  "id": 5,
-				  "nombre": "Tayabamba"
-				}
-			  ]
-			},
-			{
-			  "id": 4,
-			  "id_aux_1": 7,
-			  "nombre": "La Libertad Norte",
-			  "sedes_permitidas": [
-				{
-				  "id": 10,
-				  "nombre": "Chepén"
-				}
-			  ]
-			}
-		  ]
-		}
-	  ]
+            {
+                "id": 2,
+                "nombre": "representaciones y servicios ing s.r.l.",
+                "uunn_permitidas": [
+                    {
+                        "id": 1,
+                        "nombre": "la libertad"
+                    },
+                    {
+                        "id": 6,
+                        "nombre": "chimbote"
+                    }
+                ]
+            }
+        ]
 	}
 }
