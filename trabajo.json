@@ -1,7 +1,8 @@
 {
 	"status": 1,
-	"message": "Clientes obtenidos con éxito.",
-	"data":
+	"message": "Trabajo obtenidos con éxito.",
+	"data":{
+		"parametros": 
 		[{
 			"id": "00000001",
 			"periodo": "2020-12",
@@ -226,5 +227,52 @@
 			"lecturaminimaesperada": "20500",
 			"latitud": "-8.1117713",
 			"longitud": "-79.030883"
-		}]		
+		}],
+		"observaciones": [
+		{
+			"codigo":10,
+			"nombre":"Medidor en altura"
+		},
+		{
+			"codigo":11,
+			"nombre":"Medidor interior"
+		},
+		{
+			"codigo":12,
+			"nombre":"Predio abandonado / construcción"
+		},
+		{
+			"codigo":13,
+			"nombre":"Cliente Impide"
+		},
+		{
+			"codigo":14,
+			"nombre":"Elemento extraño impide lectura"
+		},
+		{
+			"codigo":20,
+			"nombre":"Cliente fuera de ruta"
+		},
+		{
+			"codigo":21,
+			"nombre":"No ubicado"
+		},
+		{
+			"codigo":30,
+			"nombre":"Cambio de medidor"
+		},
+		{
+			"codigo":31,
+			"nombre":"Medidor requiere inspección"
+		},
+		{
+			"codigo":32,
+			"nombre":"Sin medidor"
+		},
+		{
+			"codigo":33,
+			"nombre":"Medidor electrónico apagado"
+		}		
+		]
+	}	
 }
